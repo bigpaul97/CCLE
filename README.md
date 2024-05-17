@@ -2,8 +2,10 @@
 This repository contains all the necessary codes for running the CCLE simulation, carrying out experiment-simulation Hi-C comparison, and calculating various metrics for goodness-of-fit.
 
 **CCLE_main:**
-This folder comprehensively contains the codes for the CCLE simulation program. The main code for running the simulation is name "CCLE_main.m".
-The only input file is the file of ChIP-seq data of the protein of interest. The most important output of the program is the simulated Hi-C map.
+This folder comprehensively contains the codes for the CCLE simulation program. The main code for running the simulation is named "CCLE_main.m".
+The only input file is the file of ChIP-seq data of the protein of interest. 
+The most important output of the program are (1) the simulated Hi-C map, named "hmap", (2) the simulated loop anchor positions, named "l_sites_traj" (for left anchors) and "r_sites_traj" (for right anchors), and (3) time series, named "ts_traj".
+
 Please refer to the comments in the "CCLE_main.m" file for more details about parameter adjustment or explanation.
 This folder also contains subfolders with the yeast ChIP-seq data used in the paper.
 
