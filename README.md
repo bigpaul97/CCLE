@@ -1,6 +1,8 @@
 # Conserved-current loop extrusion (CCLE)
 This repository contains all the necessary codes for running the CCLE simulation, carrying out experiment-simulation Hi-C comparison, and calculating various metrics for goodness-of-fit.
 
+To cite the code: [![DOI](https://zenodo.org/badge/697888849.svg)](https://doi.org/10.5281/zenodo.13901225)
+
 **CCLE_main:**
 
 This folder comprehensively contains the codes for the CCLE simulation program. The main code for running the simulation is named "CCLE_main.m".
@@ -40,3 +42,5 @@ Please read to the comments in the file "chipseq_correlation" for more instructi
 This folder contains a few examples of the experimental Hi-C maps used in the paper. 
 
 These example experimental Hi-C can be used as tests or templates.
+
+
